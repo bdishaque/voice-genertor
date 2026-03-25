@@ -1,0 +1,20 @@
+{
+  "name": "voice-generator",
+  "version": "1.0.0",
+  "description": "Simple Node.js Text-to-Speech Voice Generator",
+  "main": "voice-edge.js",
+  "scripts": {
+    "start": "node voice-edge.js",
+    "web": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "msedge-tts": "^2.0.4",
+    "fs-extra": "^11.2.0",
+    "multer": "^2.1.1"
+  },
+  "keywords": [],
+  "author": "ishaque",
+  "license": "ISC",
+  "type": "commonjs"
+}
